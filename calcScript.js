@@ -8,7 +8,7 @@ function calcAge() {
   
   var age = today.getFullYear() - bDay.getFullYear();
   var monthTest = today.getMonth() - bDay.getMonth();
-  if (monthTest < 0 || (monthTest == 0 && today.getDate() < bDay.getDate())) {
+  if (monthTest < 0 || (monthTest == 0 && today.getDate() < bDay.getDate() )) {
         age--;
     }
 
